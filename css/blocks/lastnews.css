@@ -1,0 +1,58 @@
+
+.lastnews-title {
+  color: #221f1f;
+  font-family: Roboto;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 61px;
+}
+
+.lastnews{
+  margin: 0;
+  padding: 0;
+}
+
+.lastnews__item{
+  display: flex;
+}
+
+.lastnews__appearence{
+  width: 20%;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar-pic {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.lastnews__icon {
+  width: 70%;
+  color: #656464;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Roboto Light";
+  font-weight: 300;
+}
+
+.lastnews__name{
+  margin: 0px;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #191919;
+}
+
+.lastnews__text{
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(101, 100, 100);
+}

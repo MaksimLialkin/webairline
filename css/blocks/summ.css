@@ -1,0 +1,16 @@
+.summ {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 54px;
+  font-weight: 400;
+  /* Text style for "$" */
+  color: #202020;
+  line-height: 182.3px;
+  /* Text style for "1, 9" */
+  letter-spacing: -1.07px;
+  line-height: 173.58px;
+}
+
+.summ__dollar {
+ font-size: 30px;
+}

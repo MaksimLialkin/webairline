@@ -1,0 +1,14 @@
+@import url('./layout/font.css');
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+
+@import url('./blocks/header.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/maincontent.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/tarif.css');
+@import url('./blocks/description.css');
+@import url('./blocks/summ.css');
+@import url('./blocks/lastnews.css');
+@import url('./blocks/pagination.css');
+@import url('./blocks/footer.css');

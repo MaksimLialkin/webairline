@@ -1,0 +1,63 @@
+.menu__list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.menu__link {
+  color: #4b73b5;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  line-height: 54px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.menu__link:hover{
+  color: #221f1f;
+}
+
+.menu__link::before{
+  content: "";
+  width: 23px;
+  height: 18px;
+  background:center center no-repeat;
+  margin-right: 15px;
+}
+
+
+.menu__item--active .menu__link{
+  color: #221f1f;;
+}
+
+.menu__link--main::before{
+  background-image: url('../../image/icons/main_icon.png');
+}
+
+.menu__link--main:hover::before{
+  background-image: url('../../image/icons/main_icon-hover.png');
+}
+
+.menu__link--rewiev::before{
+  background: url('../../image/icons/team_icon.png');
+}
+
+.menu__link--rewiev:hover::before{
+  background-image: url('../../image/icons/team_icon-hover.png');
+}
+
+.menu__link--crew::before{
+  background: url('../../image/icons/feed_icon.png') center center no-repeat;
+}
+
+.menu__link--crew:hover::before{
+  background: url('../../image/icons/feed_icon-hover.png') center center no-repeat;
+}
+
+.menu__item--active .menu__link--main::before{
+  background-image: url('../../image/icons/main_icon-hover.png');
+}

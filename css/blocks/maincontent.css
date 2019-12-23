@@ -1,0 +1,13 @@
+.maincontent__container{
+  display: flex;
+}
+
+.maincontent__sidebar {
+  display: flex;
+  width: 20%; 
+  margin-top: 15px;
+}
+
+.maincontent__content {
+  width: 85%;
+}
