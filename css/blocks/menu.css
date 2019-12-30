@@ -61,3 +61,7 @@
 .menu__item--active .menu__link--main::before{
   background-image: url('../../image/icons/main_icon-hover.png');
 }
+
+.menu__item--active .menu__link--rewiev::before{
+  background-image: url('../../image/icons/team_icon-hover.png');
+}
