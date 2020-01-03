@@ -1,0 +1,22 @@
+.container__pattern {
+  display: flex;
+  background: url(../../image/pattern.png) #4bb56b center center no-repeat;
+  height: 169px;
+  align-items: center;
+}
+
+.text__pattern {
+  margin: 0;
+  padding: 0 210px;
+  font-size: 18px;
+  line-height: 1.667;
+  color: #ffffff;
+}
+
+.text__pattern-link{
+  color: #ffffff;
+}
+
+.pattern__phone{
+  text-decoration: none;
+}
