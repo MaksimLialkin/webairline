@@ -1,0 +1,157 @@
+.container__inner {
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+.form {
+  background: #f5f5f5;
+  padding: 5% 5%;
+}
+
+.form__title {
+  font-size: 49px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form__row {
+  margin-bottom: 18px;
+  display: flex;
+}
+
+.form__row:last-child {
+  margin-bottom: 0;
+}
+
+.form__block {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.form__block:last-child {
+  margin-right: 0;
+}
+
+.form__input {
+  width: 92%;
+  padding: 15px 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.form__input::placeholder {
+  font-size: 14px;
+  color: rgba(34, 31, 31, 0.502);
+}
+
+.form__input--textarea {
+  resize: vertical;
+  width: 96%;
+  border: 1px solid #c0cde3;
+}
+
+.form__block-title{
+  margin-bottom: 10px;
+}
+
+.form__buttons {
+  display: flex;
+}
+
+.form__controls-area {
+  width: 40%;
+}
+
+.form__controls-title {
+  font-size: 14px;
+  font-weight: 300px;
+  margin-bottom: 10px;
+}
+
+.form__controls-button {
+  display: flex;
+}
+
+.form__controls-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.form__controls-btn:last-child {
+  margin-right: 0;
+}
+
+.form__controls-real-radio {
+  display: none;
+}
+
+.form__controls-fake-radio {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid rgb(201, 201, 201);
+  position: relative;
+  margin-right: 5px;
+}
+
+.form__controls-fake-radio::after {
+  content: "";
+  display: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4c74b5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form__controls-real-radio:checked~.form__controls-fake-radio::after {
+  display: block;
+}
+
+.form__controls-real-radio:checked~.form__controls-fake-radio {
+  border-color: #4c74b5;
+}
+
+.form__controls-real-radio:checked~.form__controls-btn-title {
+  color: #4c74b5;
+}
+
+.btn {
+  padding: 18px 46px 18px 18px;
+  border-radius: 3px;
+  border: 1px solid #4b73b5;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  color: #fff;
+  background: #4b73b5 url('../../image/icons/Vector\ Smart\ Object.png') right 20px center no-repeat;
+}
+
+.form__buttons-area {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+}
+
+.btn--bg-white {
+  background: #fff;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.btn--no-icon {
+  background-image: none;
+}
+
+.form__buttons-item{
+  margin-right: 10px;
+}
+
+.form__buttons-item:last-child{
+  margin-right: 0;
+}
