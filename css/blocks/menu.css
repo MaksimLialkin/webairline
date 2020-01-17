@@ -43,19 +43,19 @@
 }
 
 .menu__link--rewiev::before{
-  background: url('../../image/icons/team_icon.png');
+  background: url('../../image/icons/feed_icon.png')center center no-repeat;
 }
 
 .menu__link--rewiev:hover::before{
-  background-image: url('../../image/icons/team_icon-hover.png');
+  background-image: url('../../image/icons/feed_icon-hover.png');
 }
 
 .menu__link--crew::before{
-  background: url('../../image/icons/feed_icon.png') center center no-repeat;
+  background: url('../../image/icons/team_icon.png') center center no-repeat;
 }
 
 .menu__link--crew:hover::before{
-  background: url('../../image/icons/feed_icon-hover.png') center center no-repeat;
+  background: url('../../image/icons/team_icon-hover.png');
 }
 
 .menu__item--active .menu__link--main::before{
@@ -63,5 +63,9 @@
 }
 
 .menu__item--active .menu__link--rewiev::before{
+  background-image: url('../../image/icons/feed_icon-hover.png');
+}
+
+.menu__item--active .menu__link--team::before{
   background-image: url('../../image/icons/team_icon-hover.png');
 }
