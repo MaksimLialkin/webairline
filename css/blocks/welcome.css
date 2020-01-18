@@ -1,4 +1,4 @@
-.wrapper--auth{
+.wrapper--auth {
   position: absolute;
   top: 0;
   left: 0;
@@ -8,48 +8,80 @@
   background: url('../../image/kzhhnb6xsqi-margo-brodowicz.jpg') center center / cover no-repeat;
 }
 
-.wrapper__container{
+.wrapper__container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.welcome{
-  animation: ball 1s /*infinite*/;
+.welcome {
+  animation: ball 1s
+    /*infinite*/
+  ;
 }
 
-.welcome__logo{
+.welcome__logo {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.welcome__logo-btn{
-  display: block;
+.welcome__logo-btn {
+  display: flex;
+  align-items: center;
   padding: 10px 20px;
   border: 1px solid #1c5bc3;
   color: #1c5bc3;
   font-size: 12px;
+  font-weight: 700px;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 2.4px;
   border-radius: 3px;
+  font-weight: 700;
 }
 
-@keyframes ball{
-  0%{
+.welcome__logo-btn::after {
+  content: "";
+  display: flex;
+  width: 19px;
+  height: 19px;
+  margin-left: 7px;
+  background: url("../../image/icons/main_icon\ 1.png") center center no-repeat;
+}
+
+.welcome__logo-btn--main:hover {
+  color: #ffff;
+  background: #1c5bc3;
+}
+
+.welcome__logo-btn--main:hover::after{
+  content: "";
+  display: flex;
+  width: 19px;
+  height: 19px;
+  margin-left: 7px;
+  background: url('../../image/icons/Vector\ Smart\ Object.png') center center no-repeat;
+}
+
+@keyframes ball {
+  0% {
     transform: translateY(0);
   }
-  20%{
+
+  20% {
     transform: translatY(-30px);
   }
-  40%{
+
+  40% {
     transform: translateY(0);
   }
-  60%{
+
+  60% {
     transform: translateY(-15px);
   }
-  80%{
+
+  80% {
     transform: translateY(0);
   }
 }
