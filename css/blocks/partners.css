@@ -1,0 +1,29 @@
+.partners {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.partners-item {
+  flex: 1 0 260px;
+  list-style-type: none;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners-link {
+  display: flex;
+}
+
+.partners-image{
+  filter: grayscale(1);
+}
+
+.partners-image:hover{
+  filter: grayscale(0);
+}
