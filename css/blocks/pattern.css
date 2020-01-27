@@ -1,6 +1,10 @@
+.pattern{
+  background: #4bb56b;
+}
+
 .pattern__container {
   display: flex;
-  background: url(../../image/pattern.png) #4bb56b center center no-repeat;
+  background: url(../../image/pattern.png)  center center no-repeat;
   height: 169px;
   align-items: center;
   margin-bottom: 57px;

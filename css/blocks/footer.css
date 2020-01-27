@@ -21,7 +21,7 @@
   justify-content: flex-end;
 }
 
-.footer__link{
+.footer__link {
   color: #ffffff;
 }
 
@@ -44,7 +44,7 @@
   margin-bottom: 9px;
 }
 
-.logo__image-icon{
+.logo__image-icon {
   display: flex;
   justify-content: space-between;
 }
@@ -61,6 +61,7 @@
   top: 9px;
 }
 
-.icon--active{
-  background-color: #ffffff;
+.icon:hover {
+  content: '';
+  background: #ffff;
 }
